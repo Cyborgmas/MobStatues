@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "mob_statues:statue"
+    }
+  ],
+  "result": {
+    "item": "mob_statues:statue",
+    "nbt": "{id:\"minecraft:iron_golem\"}"
+  }
+}

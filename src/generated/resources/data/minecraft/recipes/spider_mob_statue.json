@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "mob_statues:statue"
+    }
+  ],
+  "result": {
+    "item": "mob_statues:statue",
+    "nbt": "{id:\"minecraft:spider\"}"
+  }
+}

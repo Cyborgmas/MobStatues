@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:cat_mob_statue"
+    ]
+  },
+  "criteria": {
+    "has_statue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mob_statues:statue"
+          }
+        ]
+      }
+    },
+    "has_minecraft:cod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cod"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:cat_mob_statue"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_statue",
+      "has_minecraft:cod",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "start=false": {
+      "model": "mob_statues:block/statue_block"
+    },
+    "start=true": {
+      "model": "mob_statues:block/statue_block"
+    }
+  }
+}

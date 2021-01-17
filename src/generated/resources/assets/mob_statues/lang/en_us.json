@@ -1,0 +1,5 @@
+{
+  "block.mob_statues.statue_block": "Statue",
+  "entity.mob_statues.unknown": "Unknown",
+  "tooltip.mob_statues.statue": "%s statue"
+}

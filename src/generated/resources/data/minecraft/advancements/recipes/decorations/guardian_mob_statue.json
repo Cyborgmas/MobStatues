@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "minecraft:guardian_mob_statue"
+    ]
+  },
+  "criteria": {
+    "has_statue": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "mob_statues:statue"
+          }
+        ]
+      }
+    },
+    "has_minecraft:prismarine_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine_shard"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:guardian_mob_statue"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_statue",
+      "has_minecraft:prismarine_shard",
+      "has_the_recipe"
+    ]
+  ]
+}

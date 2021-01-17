@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "mob_statues:statue"
+    }
+  ],
+  "result": {
+    "item": "mob_statues:statue",
+    "nbt": "{id:\"minecraft:guardian\"}"
+  }
+}

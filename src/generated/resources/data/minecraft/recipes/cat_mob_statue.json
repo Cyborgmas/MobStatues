@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "mob_statues:statue"
+    }
+  ],
+  "result": {
+    "item": "mob_statues:statue",
+    "nbt": "{id:\"minecraft:cat\"}"
+  }
+}
